@@ -150,7 +150,7 @@ POST http://127.0.0.1:8000/api/register/
 }
 ```
 **La respuesta en postman:**
-IMAGEN
+<img width="962" height="532" alt="Image" src="https://github.com/user-attachments/assets/fca6b093-8cb8-4861-be96-88e3d0f5542a" />
 
 **Codigo para el registro:**
 ```python
@@ -198,7 +198,7 @@ POST http://127.0.0.1:8000/api/login/
 }
 ```
 **La respuesta en postman:**
-IMAGEN
+<img width="966" height="582" alt="Image" src="https://github.com/user-attachments/assets/3d9e2d58-9aa1-4ad0-96f9-fe789b70fa94" />
 
 El Login genera un access token, que luego va a servir para autenticar las demas aplicaciones.
 
@@ -212,7 +212,7 @@ GET http://127.0.0.1:8000/api/libros/
 En auth type se selecciona bearer token y se pone el access token generado en login.
 
 **Respuesta en postman:**
-IMAGEN
+<img width="972" height="828" alt="Image" src="https://github.com/user-attachments/assets/511cb9d2-801a-455f-931b-2431d531a324" />
 
 **Listar libro por ID**
 **Url de la api libros:**
@@ -222,7 +222,7 @@ GET http://127.0.0.1:8000/api/libros/3/
 Se pasa en la url el id del libro que se desea.
 En auth type se selecciona bearer token y se pone el access token generado en login.
 **Respuesta en postman:**
-IMAGEN
+<img width="974" height="718" alt="Image" src="https://github.com/user-attachments/assets/f0dd18e7-36f1-428d-a9d8-7fc496bfdf8a" />
 
 **Insertar nuevo Libro**
 **Url de la api libros:**
@@ -243,7 +243,7 @@ En auth type se selecciona bearer token y se pone el access token generado en lo
 }
 ```
 **Respuesta en postman:**
-IMAGEN
+<img width="970" height="714" alt="Image" src="https://github.com/user-attachments/assets/fbcae9a6-b083-43bf-a4f4-11f347254e90" />
 
 **Actualizar Libro**
 **Url de la api libros:**
@@ -265,8 +265,7 @@ En auth type se selecciona bearer token y se pone el access token generado en lo
 }
 ```
 **Respuesta en postman:**
-IMAGEN
-
+<img width="972" height="724" alt="Image" src="https://github.com/user-attachments/assets/0dd6c1b9-19f5-42c0-b2b1-bef97fb6a039" />
 
 **Eliminar Libro**
 **Url de la api libros:**
@@ -277,8 +276,7 @@ Se pasa en la url el id del libro que se desea **eliminar**.
 En auth type se selecciona bearer token y se pone el access token generado en login.
 
 **Respuesta en postman:**
-IMAGEN
-
+<img width="968" height="546" alt="Image" src="https://github.com/user-attachments/assets/cb569149-1506-48b6-b384-8723786b7f1d" />
 
 ## Codigo del View en Libros
 
@@ -417,6 +415,7 @@ Recomendación por nombre y top personalizado:
 ```bash
 python manage.py recomienda_libros --genero="Ciencia Ficción" --top=5
 ```
+<img width="634" height="92" alt="Image" src="https://github.com/user-attachments/assets/09b94b91-25d9-4e5b-adb5-a942735a587a" />
 
 ## Licencia
 Este proyecto se distribuye bajo la licencia MIT, lo que significa que eres libre de utilizar, modificar y distribuir el código, incluso para fines comerciales, siempre que conserves el aviso de copyright y la licencia en cualquier copia.
