@@ -310,11 +310,15 @@ Archivo: reporte1_top5_libros_por_genero.png
 Descripción:
 Presenta los cinco géneros literarios con mayor cantidad de libros registrados en el sistema. Permite visualizar las preferencias temáticas predominantes en la biblioteca.
 
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/7690de20-86a8-4af3-9162-0ca2557a7664" />
+
 **2. Top 5 autores con más libros**
 Archivo: reporte2_top5_autores_mas_libros.png
 
 Descripción:
 Muestra los cinco autores con mayor número de libros en la base de datos, ayudando a identificar a los escritores más representados en la colección.
+
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/9bd2cf98-2101-4977-af37-d40c569c53fc" />
 
 **3. Top 5 libros mejor calificados**
 Archivo: reporte3_top5_libros_mejor_calificados.png
@@ -322,11 +326,15 @@ Archivo: reporte3_top5_libros_mejor_calificados.png
 Descripción:
 Expone los cinco libros que tienen el promedio de calificación más alto otorgado por los usuarios, indicando las obras más apreciadas o recomendadas.
 
+<img width="1000" height="600" alt="Image" src="https://github.com/user-attachments/assets/bbe71154-6d83-45ac-9c32-21650102cd1f" />
+
 **4. Libros publicados por año**
 Archivo: reporte4_libros_por_anio.png
 
 Descripción:
 Representa la evolución en el tiempo de la cantidad de libros publicados cada año. Este gráfico de líneas permite analizar tendencias y picos de publicación.
+
+<img width="1000" height="600" alt="Image" src="https://github.com/user-attachments/assets/19967b02-1029-4f0d-88ec-10317c070133" />
 
 **5. Top 5 usuarios con más calificaciones**
 Archivo: reporte5_top5_usuarios_mas_calificaciones.png
@@ -334,11 +342,15 @@ Archivo: reporte5_top5_usuarios_mas_calificaciones.png
 Descripción:
 Identifica a los usuarios más activos, es decir, aquellos que han emitido la mayor cantidad de calificaciones dentro del sistema.
 
+<img width="900" height="600" alt="Image" src="https://github.com/user-attachments/assets/089ddfad-3c76-4f70-88b2-29ebacfb04ac" />
+
 **6. Distribución de calificaciones (1 a 5)**
 Archivo: reporte6_distribucion_calificaciones.png
 
 Descripción:
 Muestra la cantidad de calificaciones asignadas para cada valor posible (del 1 al 5), visualizando si los usuarios tienden a ser estrictos, promedio o generosos en sus evaluaciones.
+
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a707d48c-b360-436d-926f-125f34adc217" />
 
 **7. Libros sin calificaciones**
 Archivo: reporte7_libros_sin_calificaciones.png
@@ -346,17 +358,22 @@ Archivo: reporte7_libros_sin_calificaciones.png
 Descripción:
 Enlista todos los libros que todavía no han recibido ninguna calificación por parte de los usuarios, lo que puede ser útil para identificar obras poco valoradas o promocionar su lectura.
 
+<img width="1000" height="459" alt="Image" src="https://github.com/user-attachments/assets/dd6bfc0d-a6c5-4eee-b28c-ed722c0ae71e" />
+
 **8. Top 5 autores mejor calificados**
 Archivo: reporte8_top5_autores_mejor_calificados.png
 
 Descripción:
 Presenta a los cinco autores cuyo promedio de calificación en sus libros es el más alto, brindando un panorama sobre la calidad percibida de sus obras.
 
+<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/08e9d13d-af99-4e80-9383-2a6acfeb0614" />
+
 **9. Top 5 géneros más calificados**
 Archivo: reporte9_top5_generos_mas_calificados.png
 
 Descripción:
 Muestra los géneros que acumulan la mayor cantidad de calificaciones en total, reflejando la interacción y popularidad entre los usuarios.
+<img width="900" height="500" alt="Image" src="https://github.com/user-attachments/assets/2fb31760-98cc-4d96-a7f6-a359a616ca54" />
 
 **10. Top 5 libros más calificados**
 Archivo: reporte10_top5_libros_mas_calificados.png
@@ -364,6 +381,7 @@ Archivo: reporte10_top5_libros_mas_calificados.png
 Descripción:
 Lista los cinco libros que recibieron la mayor cantidad de calificaciones, independientemente de su promedio. Permite identificar los títulos más populares o polémicos.
 
+<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/1cd7372f-8c92-43e1-93be-f50a29ba16d9" />
 ## Script de recomendaciones de libros por género
 
 El proyecto incluye un comando personalizado para la consola llamado recomienda_libros, que genera una lista de libros recomendados en base a un género literario seleccionado por el usuario. Este comando facilita obtener rápidamente los títulos mejor valorados según la opinión de los usuarios registrados en el sistema.
